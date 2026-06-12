@@ -9,13 +9,13 @@ const navItems = [
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-[#2d3b4e] border-b border-[#3a4a62] z-50">
-      <nav className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-0 left-0 right-0 bg-white border-b border-gray-300 z-50">
+      <nav className="w-full mx-auto px-0 sm:px-2 lg:px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Code className="w-6 h-6 text-blue-400" />
-            <span className="font-bold text-xl text-white">
+            <Code className="w-7 h-7 text-blue-400" />
+            <span className="font-bold text-2xl">
               Maxlias Dev
             </span>
           </div>
@@ -26,7 +26,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-300 hover:text-blue-500 transition-colors"
               >
                 {item.name}
               </a>

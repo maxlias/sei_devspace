@@ -8,8 +8,8 @@ export default function Home() {
       <main className="flex-1 pt-16">
       {/* Hero Section */}
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <div className="bg-[#2d3b4e] rounded-2xl p-8 md:p-12">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+        <div className="bg-white rounded-2xl p-8 md:p-12">
+          <h1 className="text-3xl md:text-4xl font-bold text-black mb-4">
             Hi! I'm Maxlias
           </h1>
           
@@ -17,11 +17,10 @@ export default function Home() {
             Building and sharing, one commit at a time
           </p>
           
-          <div className="space-y-4 text-gray-300 mb-8">
+          <div className="space-y-4 text-300 mb-8">
             <p>
               Full Stack developer exploring the intersection of creativity and technology. 
               Open source advocate, Linux user, and lifelong learner. 
-              I believe the best code is written together.
               This is my little corner of the internet. A place to share my journey.
             </p>
           </div>
@@ -35,15 +34,15 @@ export default function Home() {
       {/* Sección My Projects - esto es beta, despues remplazar con el repo de git */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="flex items-center gap-4 mb-6">
-          <h2 className="text-2xl font-bold text-white whitespace-nowrap">My Projects</h2>
-          <div className="flex-1 h-px bg-gray-600"></div>
+          <h2 className="text-2xl font-bold whitespace-nowrap">My Projects</h2>
+          <div className="flex-1 h-px bg-gray-300"></div>
         </div>
         
         <div className="space-y-4">
           {/* Proyecto 1 */}
-          <div className="bg-[#2d3b4e] rounded-xl p-5">
-            <h3 className="text-xl font-semibold text-white">Nombre del Proyecto</h3>
-            <p className="text-gray-400 text-sm mt-1">Descripción del proyecto. Qué hace, tecnologías usadas.</p>
+          <div className="bg-white rounded-xl p-5">
+            <h3 className="text-xl font-semibold">Nombre del Proyecto</h3>
+            <p className="text-400 text-sm mt-1">Descripción del proyecto. Qué hace, tecnologías usadas.</p>
             <div className="flex gap-3 mt-3">
               <span className="text-xs text-blue-400">React</span>
               <span className="text-xs text-blue-400">TypeScript</span>
@@ -51,9 +50,9 @@ export default function Home() {
           </div>
 
           {/* Proyecto 2 */}
-          <div className="bg-[#2d3b4e] rounded-xl p-5">
-            <h3 className="text-xl font-semibold text-white">Otro Proyecto</h3>
-            <p className="text-gray-400 text-sm mt-1">Descripción de este otro proyecto.</p>
+          <div className="bg-white rounded-xl p-5">
+            <h3 className="text-xl font-semibold">Otro Proyecto</h3>
+            <p className="text-400 text-sm mt-1">Descripción de este otro proyecto.</p>
             <div className="flex gap-3 mt-3">
               <span className="text-xs text-blue-400">Next.js</span>
               <span className="text-xs text-blue-400">Tailwind</span>
