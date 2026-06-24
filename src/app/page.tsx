@@ -17,7 +17,7 @@ export default function Home() {
         <main className="flex-1 pt-16">
 
           <div className="max-w-4xl mx-auto px-4 py-12">
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg" data-card>
+            <div className="bg-white/80 backdrop-blur-sm p-8 md:p-12 shadow-lg" data-card>
               <h1 className="text-3xl md:text-4xl font-bold text-black mb-4">
                 Hi! I'm Maxlias
               </h1>
